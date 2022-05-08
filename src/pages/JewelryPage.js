@@ -3,15 +3,17 @@ import Announcement from '../components/Announcement'
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter';
-import Products from '../components/Products';
-import styles from "./ProductList.module.css"
+import JewelryPageProducts from '../components/JewelryPageProducts';
+import styles from "./JewelryPage.module.css"
+import ReactPagination from '../components/Pagination';
 
-const ProductList = () => {
+const JewelryPage = () => {
+
   return (
     <div className={styles.Container}>
       <Navbar/>
       <Announcement/>
-      <h1 className={styles.Title}>Rings</h1>
+      <h1 className={styles.Title}>Jewelry Page</h1>
       <div className={styles.FilterContainer}>
           <div className={styles.Filter}>
               <span className={styles.FilterText}>Bộ lọc sản phẩm:</span>
@@ -31,7 +33,7 @@ const ProductList = () => {
             </select>
 
             <select className={styles.Select}>
-                <option className={styles.Option} disabled selected>Chất liệu vàng</option>
+                <option className={styles.Option} disabled selected>Tuổi vàng</option>
                 <option className={styles.Option}>10K</option>
                 <option className={styles.Option}>14K</option>
                 <option className={styles.Option}>18K</option>
@@ -58,16 +60,17 @@ const ProductList = () => {
             <span className={styles.FilterText}>Xắp xếp:</span>
             <select className={styles.Select}>
                 <option className={styles.Option} selected>Sản phẩm mới nhất</option>
-                <option className={styles.Option}>Sản phẩm phổ biến nhất (asc)</option>
-                <option className={styles.Option}>Sản phẩm cũ (desc)</option>
+                <option className={styles.Option}>Sản phẩm phổ biến nhất</option>
+                <option className={styles.Option}>Sản phẩm cũ nhất</option>
           </select>
           </div>
       </div>
-      <Products/>
+      <JewelryPageProducts/>
+      <ReactPagination/>
       <Newsletter/>
       <Footer/>
     </div>
   )
 }
 
-export default ProductList
+export default JewelryPage
