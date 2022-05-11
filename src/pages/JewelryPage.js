@@ -13,31 +13,31 @@ const JewelryPage = () => {
     <div className={styles.Container}>
       <Navbar/>
       <Announcement/>
-      <h1 className={styles.Title}>Jewelry Page</h1>
+      <h1 className={styles.Title}>Keycap Page</h1>
       <div className={styles.FilterContainer}>
           <div className={styles.Filter}>
               <span className={styles.FilterText}>Bộ lọc sản phẩm:</span>
               <select className={styles.Select}>
                   <option className={styles.Option} disabled selected>Thương hiệu</option>
-                  <option className={styles.Option}>PNJ</option>
-                  <option className={styles.Option}>GoldRiver</option>
-                  <option className={styles.Option}>CrystalCop</option>
+                  <option className={styles.Option}>GMK keycaps</option>
+                  <option className={styles.Option}>Taihao keycap</option>
+                  <option className={styles.Option}>Calm Depths</option>
               </select>
 
               <select className={styles.Select}>
                 <option className={styles.Option} disabled selected>Chất liệu</option>
-                <option className={styles.Option}>Vàng</option>
-                <option className={styles.Option}>Bạc</option>
-                <option className={styles.Option}>Kim Cương</option>
-                <option className={styles.Option}>Thạch Anh</option>
+                <option className={styles.Option}>Nhựa ABS</option>
+                <option className={styles.Option}>Nhựa PBT</option>
+                <option className={styles.Option}>Nhựa Thạch Anh</option>
+                <option className={styles.Option}>Nhựa Màu</option>
             </select>
 
             <select className={styles.Select}>
-                <option className={styles.Option} disabled selected>Tuổi vàng</option>
-                <option className={styles.Option}>10K</option>
-                <option className={styles.Option}>14K</option>
-                <option className={styles.Option}>18K</option>
-                <option className={styles.Option}>24K</option>
+                <option className={styles.Option} disabled selected>Giá</option>
+                <option className={styles.Option}>20$</option>
+                <option className={styles.Option}>54$</option>
+                <option className={styles.Option}>78$</option>
+                <option className={styles.Option}>100$</option>
             </select>
 
             <select className={styles.Select}>
@@ -53,6 +53,7 @@ const JewelryPage = () => {
                 <option className={styles.Option}>Xanh</option>
                 <option className={styles.Option}>Vàng</option>
                 <option className={styles.Option}>Đen</option>
+                <option className={styles.Option}>Hồng</option>
             </select>
           </div>
 

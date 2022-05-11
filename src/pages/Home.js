@@ -4,21 +4,22 @@ import React from 'react'
 import Announcement from '../components/Announcement'
 import Categories from '../components/Categories'
 import Footer from '../components/Footer'
+import JewelryPageProducts from '../components/JewelryPageProducts'
 import Navbar from '../components/Navbar'
-
 import Newsletter from '../components/Newsletter'
-import Products from '../components/Products'
+import ReactPagination from '../components/Pagination'
 import Slider from '../components/Slider'
 
 
 const Home = () => {
   return (
     <div>
-      <Announcement/>
       <Navbar/>
+      <Announcement/>
       <Slider/>
       <Categories/>
-      <Products/>
+      <JewelryPageProducts/>
+      <ReactPagination/>
       <Newsletter/>
       <Footer/>
     </div>

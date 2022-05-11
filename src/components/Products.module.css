@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 10px;
-
+    border: 20px;
+    
 }
 .Title {
 justify-content: center;

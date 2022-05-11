@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className={styles.Footer}>
       <div className={styles.Left}>
-        <h1 className={styles.Logo}>DIAMOUND CITY</h1>
+        <h1 className={styles.Logo}>10KEYCERY</h1>
         <p className={styles.Desc}>
-          There are many variations of passages of Lorem Ipsum available, but
+          There are many variations of passages of keycap available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don’t look even slightly believable
         </p>
@@ -32,10 +32,10 @@ const Footer = () => {
         <h3 className={styles.Title}>Useful Links</h3>
         <ul className={styles.List}>
         <li className={styles.ListItem}>Home</li>
-          <li className={styles.ListItem}>Cart</li>
-          <li className={styles.ListItem}>Man Fashion</li>
-          <li className={styles.ListItem}>Woman Fashion</li>
-          <li className={styles.ListItem}>Accessories</li>
+          <li className={styles.ListItem}>KeyCaps</li>
+          <li className={styles.ListItem}>Accessory</li>
+          <li className={styles.ListItem}>Contact</li>
+          <li className={styles.ListItem}>Login</li>
         </ul>
       </div>
 
@@ -45,7 +45,7 @@ const Footer = () => {
           <li className={styles.ListItem}>My Account</li>
           <li className={styles.ListItem}>Order Tracking</li>
           <li className={styles.ListItem}>Wishlist</li>
-          <li className={styles.ListItem}>Wishlist</li>
+          <li className={styles.ListItem}>Cards</li>
           <li className={styles.ListItem}>Terms</li>
         </ul>
       </div>

@@ -12,31 +12,31 @@ const GiftPage = () => {
     <div className={styles.Container}>
       <Navbar/>
       <Announcement/>
-      <h1 className={styles.Title}>Gift Page</h1>
+      <h1 className={styles.Title}>Phụ Kiện Page</h1>
       <div className={styles.FilterContainer}>
           <div className={styles.Filter}>
               <span className={styles.FilterText}>Bộ lọc sản phẩm:</span>
               <select className={styles.Select}>
-                  <option className={styles.Option} disabled selected>Thương hiệu</option>
-                  <option className={styles.Option}>PNJ</option>
-                  <option className={styles.Option}>GoldRiver</option>
-                  <option className={styles.Option}>CrystalCop</option>
+              <option className={styles.Option} disabled selected>Thương hiệu</option>
+                  <option className={styles.Option}>GMK keycaps</option>
+                  <option className={styles.Option}>Taihao keycap</option>
+                  <option className={styles.Option}>Calm Depths</option>
               </select>
 
               <select className={styles.Select}>
                 <option className={styles.Option} disabled selected>Chất liệu</option>
-                <option className={styles.Option}>Vàng</option>
-                <option className={styles.Option}>Bạc</option>
-                <option className={styles.Option}>Kim Cương</option>
-                <option className={styles.Option}>Thạch Anh</option>
+                <option className={styles.Option}>Nhựa ABS</option>
+                <option className={styles.Option}>Nhựa PBT</option>
+                <option className={styles.Option}>Nhựa Thạch Anh</option>
+                <option className={styles.Option}>Nhựa Màu</option>
             </select>
 
             <select className={styles.Select}>
-                <option className={styles.Option} disabled selected>Loại trang sức</option>
-                <option className={styles.Option}>Bông tai</option>
-                <option className={styles.Option}>Nhẫn</option>
-                <option className={styles.Option}>Dây chuyền</option>
-                <option className={styles.Option}>Đồng hồ</option>
+                <option className={styles.Option} disabled selected>Giá</option>
+                <option className={styles.Option}>15$</option>
+                <option className={styles.Option}>50$</option>
+                <option className={styles.Option}>100$</option>
+                <option className={styles.Option}>200$</option>
             </select>
 
             <select className={styles.Select}>

@@ -13,7 +13,7 @@ flex: 1;
 }
 
 .Image {
-height: 80%;
+height: 85%;
 }
 
 .InfoContainer{
@@ -26,7 +26,7 @@ font-size: 70px;
 }
 
 .Desc{
-margin: 50px 0px;
+margin: 40px 0px;
 font-size: 20px;
 font-weight: 500;
 letter-spacing: 3px;
@@ -34,8 +34,11 @@ letter-spacing: 3px;
 
 .Button{
 padding: 10px;
-font-size: 20px;
-background-color: transparent;
+font-size: 16px;
+background-color: #57a6be;
 cursor: pointer;
+color: black;
+border-radius: 5px;
+margin-left: -2px;
 }
 

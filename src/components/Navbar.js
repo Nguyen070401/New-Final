@@ -18,17 +18,17 @@ const Navbar = () => {
           </li>
           <li className="topListItem">
           <Link className="link" to="/login">
-            ABOUT
+             KEYCAPS
           </Link>
           </li>
           <li className="topListItem">
           <Link className="link" to="/register">
-            CONTACT
+            ACCESSORY
           </Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/write">
-              WRITE
+              CONTACT
             </Link>
           </li>
           <li className="topListItem">
@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="link" to="/settings">
             <img
               className="topImg"
-              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://lh3.googleusercontent.com/a-/AOh14GiqKeEDVUBpg8Kw_zxH5Yc1AwsiQkdC187yff4sog=s360-p-rw-no"
               alt=""
             />
           </div>     

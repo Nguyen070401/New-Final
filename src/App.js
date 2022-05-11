@@ -5,6 +5,8 @@ import JewelryPage from './pages/JewelryPage';
 import Product from './pages/Product';
 import WatchPage from './pages/WatchPage';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ContactPage from './pages/ContactPage';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
@@ -21,17 +23,15 @@ function App() {
         <JewelryPage/>
      </Route>
      <Route path="/write">
-        <Product/>
+        <ContactPage/>
      </Route>
      <Route path="/settings">
-        <WatchPage/>
+        <LoginPage/>
      </Route>
 
      <Route path="/post/:postId">
         <WatchPage/>
      </Route>
-
-
    </Switch>
   </Router>
   );

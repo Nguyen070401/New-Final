@@ -6,7 +6,7 @@ import styles from "./Categories.module.css"
 const Categories = () => {
   return (
     <>
-    <div className={styles.Title}>GROUP PRODUCTS</div>
+    <div className={styles.Title}>NEW ARRIVALS</div>
     <div className={styles.Container}>
        
         {categories.map(item=>(
