@@ -1,31 +1,54 @@
-import React from 'react'
-import styles from "./Navbar.module.css"
-import {Search, ShoppingCartOutlined} from "@material-ui/icons";
-import { Badge } from '@material-ui/core';
-
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 const Navbar = () => {
   return (
-      <div className={styles.Wrapper}>
-          <div className={styles.Left}>
-              <div className={styles.Language}>EN</div>
-              <div className={styles.SearchContainer}>
-                <input className={styles.Input}/>
-                <Search style={{ color: "gray", fontSize: 16 }}/>
-              </div>
-          </div>
-          <div className={styles.Center}>
-              <h1 className={styles.Logo}>DIAMOUND CITY</h1>
-          </div>
-          <div className={styles.Right}>
-            <div className={styles.MenuItem}>REGISTER</div>
-            <div className={styles.MenuItem}>SIGN IN</div>
-            <div className={styles.MenuItem}>
-                <Badge badgeContent={4} color="primary">
-                    <ShoppingCartOutlined></ShoppingCartOutlined>
-                </Badge>
-            </div>         
-          </div>
+    <div className="top">
+      <div className="topLeft">
+        <i className="topIcon fab fa-facebook-square"></i>
+        <i className="topIcon fab fa-instagram-square"></i>
+        <i className="topIcon fab fa-pinterest-square"></i>
+        <i className="topIcon fab fa-twitter-square"></i>
       </div>
+      <div className="topCenter">
+        <ul className="topList">
+          <li className="topListItem">
+            <Link className="link" to="/">
+              HOME
+            </Link>
+          </li>
+          <li className="topListItem">
+          <Link className="link" to="/login">
+            ABOUT
+          </Link>
+          </li>
+          <li className="topListItem">
+          <Link className="link" to="/register">
+            CONTACT
+          </Link>
+          </li>
+          <li className="topListItem">
+            <Link className="link" to="/write">
+              WRITE
+            </Link>
+          </li>
+          <li className="topListItem">
+            <Link className="link" to="/settings">
+              LOGIN
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="topRight">   
+          <div className="link" to="/settings">
+            <img
+              className="topImg"
+              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+            />
+          </div>     
+        <i className="topSearchIcon fas fa-search"></i>
+      </div>
+    </div>
   )
 }
 
