@@ -63,7 +63,7 @@ const Slider = () => {
             <div className={styles.InfoContainer}>
             <h1 className={styles.Title}>{item.title}</h1>
             <p className={styles.Desc}>{item.desc}</p>
-            <button className={styles.Button}>SHOW NOW</button>
+            <a className={styles.Button} href="https://shopee.vn/keycap_10keycery?smtt=0.81320489-1652765087.9&fbclid=IwAR2-yHZlvCO6csgRNppKcClloiPhFNqD9G8TVTKnIAFeWks3tTwbGzPmk9Y">SHOW NOW</a>
 
             </div>
             </Slide>

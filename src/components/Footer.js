@@ -42,8 +42,12 @@ const Footer = () => {
       <div className={styles.Center2}>
         <h3 className={styles.Title}>Another Links</h3>
         <ul className={styles.List}>
-          <li className={styles.ListItem}>My Account</li>
-          <li className={styles.ListItem}>Order Tracking</li>
+        <li className={styles.ListItem}>
+          <a className={styles.ListItemLink} href="https://www.facebook.com/10keycery">Facebook</a>
+        </li>
+        <li className={styles.ListItem}>
+          <a className={styles.ListItemLink} href="https://shopee.vn/keycap_10keycery?smtt=0.81320489-1652765087.9&fbclid=IwAR2-yHZlvCO6csgRNppKcClloiPhFNqD9G8TVTKnIAFeWks3tTwbGzPmk9Y">Shopee</a>
+        </li>
           <li className={styles.ListItem}>Wishlist</li>
           <li className={styles.ListItem}>Cards</li>
           <li className={styles.ListItem}>Terms</li>
@@ -61,7 +65,7 @@ const Footer = () => {
           <Phone style={{marginRight:"10px"}}/> +1 538 677 859
         </div>
         <div className={styles.ContactItem}>
-          <MailOutline style={{marginRight:"10px"}} /> contact@diamound.city
+          <MailOutline style={{marginRight:"10px"}} /> contact@10keycentury.com
         </div>
         <img className={styles.Payment} alt="" src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </div>

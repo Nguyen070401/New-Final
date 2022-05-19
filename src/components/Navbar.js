@@ -4,10 +4,8 @@ const Navbar = () => {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
+        <i className="topIcon fas fa-light fa-keyboard"></i>
+        10KeyCentury
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -38,15 +36,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="topRight">   
-          <div className="link" to="/settings">
-            <img
-              className="topImg"
-              src="https://lh3.googleusercontent.com/a-/AOh14GiqKeEDVUBpg8Kw_zxH5Yc1AwsiQkdC187yff4sog=s360-p-rw-no"
-              alt=""
-            />
-          </div>     
+      <div className="topRight">      
         <i className="topSearchIcon fas fa-search"></i>
+        <i className="topSearchIcon fas fa-shopping-cart"></i>
+        <i className="topSearchIcon fas  fa-user"></i>
       </div>
     </div>
   )

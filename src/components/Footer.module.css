@@ -11,7 +11,9 @@ flex-direction: column;
 padding: 20px;
 }
 
-.Logo{}
+.Logo{
+  color: #57a6be;
+}
 
 .Desc{
 margin: 20px 0px;
@@ -72,4 +74,9 @@ align-items: center;
 
 .Payment{
   width: 50%;
+}
+
+.ListItemLink{
+  text-decoration: none;
+  color: #000;
 }
