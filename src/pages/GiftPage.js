@@ -7,7 +7,7 @@ import GiftPageProducts from '../components/GiftPageProducts';
 import styles from "./GiftPage.module.css"
 import ReactPagination from '../components/Pagination';
 
-const GiftPage = () => {
+const GiftPage = () => { 
   return (
     <div className={styles.Container}>
       <Navbar/>

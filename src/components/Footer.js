@@ -65,7 +65,7 @@ const Footer = () => {
           <Phone style={{marginRight:"10px"}}/> +1 538 677 859
         </div>
         <div className={styles.ContactItem}>
-          <MailOutline style={{marginRight:"10px"}} /> contact@10keycentury.com
+          <MailOutline style={{marginRight:"10px"}} /> contact@10keycery.com
         </div>
         <img className={styles.Payment} alt="" src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </div>

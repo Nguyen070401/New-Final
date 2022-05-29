@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="top">
       <div className="topLeft">
         <i className="topIcon fas fa-light fa-keyboard"></i>
-        10KeyCentury
+        10KeyCery
       </div>
       <div className="topCenter">
         <ul className="topList">
